@@ -1,20 +1,6 @@
 "use client";
 
-import { HTMLMotionProps, motion } from "framer-motion";
-import React, { forwardRef } from "react";
+import { motion } from "framer-motion";
 
-export type MotionProps = HTMLMotionProps<"div"> & {
-  children?: React.ReactNode;
-};
-
-export const Motion = forwardRef<HTMLDivElement, MotionProps>(
-  ({ children, ...props }, ref) => {
-    return (
-      <motion.div ref={ref} {...props}>
-        {children}
-      </motion.div>
-    );
-  }
-);
-
-Motion.displayName = "Motion";
+// Export the motion component directly
+export const Motion = motion.div;
