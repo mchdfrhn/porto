@@ -39,7 +39,7 @@ export function Header() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="font-bold text-lg md:text-xl flex items-center gap-2">
-            <span className="gradient-text">Farhan Ali</span>
+            <span className="gradient-text">M F A</span>
           </Link>
 
           {/* Desktop Navigation */}
