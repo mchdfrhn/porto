@@ -15,8 +15,14 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
-  keywords: ['DevOps Engineer', 'Cloud Infrastructure', 'CI/CD', 'Automation', 'Portfolio'],
+  keywords: ['DevOps Engineer', 'Full-Stack Web Developer', 'Cloud Infrastructure', 'CI/CD', 'Automation', 'Portfolio'],
   authors: [{ name: SITE_NAME }],
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({

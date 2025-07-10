@@ -10,7 +10,7 @@ import { Motion } from "@/components/motion";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Learn more about Mochammad Farhan Ali, a DevOps Engineer specializing in cloud infrastructure and automation.",
+  description: "Discover Mochammad Farhan Ali: a DevOps Engineer focused on cloud infrastructure and automation, who's also a skilled web developer building applications.",
 };
 
 export default function AboutPage() {
@@ -25,21 +25,26 @@ export default function AboutPage() {
           >
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h1>
             <p className="mt-4 text-muted-foreground md:text-xl">
-              Get to know more about my experience, skills, and expertise in DevOps and cloud technologies.
+              Explore my experience, skills, and expertise in DevOps, cloud technologies, and web development.
             </p>
           </Motion>
 
-          <div className="mt-16 grid gap-12 md:grid-cols-2">
+          <div className="mt-16 grid gap-12 lg:grid-cols-[400px_1fr] xl:grid-cols-[500px_1fr]">
             <Motion
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              <div className="space-y-6">
-                <div className="relative mx-auto md:mx-0 aspect-square overflow-hidden rounded-xl bg-muted max-w-xs">
-                  <div className="absolute inset-0 flex items-center justify-center text-6xl font-bold text-foreground/10">
-                    FA
-                  </div>
+              <div className="space-y-8">
+                <div className="relative mx-auto md:mx-0 aspect-square overflow-hidden rounded-2xl bg-muted max-w-md shadow-xl">
+                  <Image
+                    src="/images/profile.jpg"
+                    alt="Mochammad Farhan Ali - DevOps Engineer"
+                    fill
+                    className="object-cover transition-transform duration-300 hover:scale-105"
+                    unoptimized
+                    sizes="(max-width: 768px) 400px, 500px"
+                  />
                 </div>
                 <div className="flex justify-center md:justify-start">
                   <Button asChild variant="outline" className="gap-2">
@@ -60,18 +65,13 @@ export default function AboutPage() {
             >
               <h2 className="text-2xl font-bold">Personal Introduction</h2>
               <p className="text-muted-foreground">
-                I am a passionate DevOps Engineer with over 8 years of experience in designing, implementing, and managing cloud infrastructure 
-                and CI/CD pipelines. I specialize in automation, containerization, and infrastructure as code, helping organizations 
-                streamline their software delivery processes and improve operational efficiency.
+                Passionate about the full software lifecycle, I'm a DevOps Engineer with over 2 years of experience in cloud infrastructure, CI/CD, automation, containerization, and infrastructure as code. I drive operational efficiency and seamless software delivery. As a seasoned web developer, I bridge the gap between infrastructure and engaging user experiences, ensuring robust, end-to-end solutions.
               </p>
               <p className="text-muted-foreground">
-                My expertise spans across multiple cloud platforms including AWS, GCP, and Azure, with a focus on 
-                building scalable, secure, and highly available systems. I am committed to implementing best practices 
-                and staying up-to-date with the latest technologies in the rapidly evolving DevOps landscape.
+                Proficient across AWS, GCP, and Azure, I focus on building scalable, secure, and highly available cloud systems. My commitment to best practices and staying current in the DevOps landscape directly supports my work as a web developer, enabling me to deliver high-performance and resilient web applications.
               </p>
               <p className="text-muted-foreground">
-                When I'm not automating infrastructure or optimizing CI/CD pipelines, I enjoy contributing to open-source projects, 
-                sharing knowledge through technical blog posts, and mentoring aspiring DevOps professionals.
+                Outside of automating infrastructure and optimizing CI/CD pipelines, I channel my energy into web development projects. I'm also committed to giving back, regularly contributing to open-source, sharing knowledge through community engagement, and mentoring the next generation of DevOps and web development talent.
               </p>
             </Motion>
           </div>
@@ -102,12 +102,13 @@ export default function AboutPage() {
           >
             <h2 className="text-2xl font-bold">Professional Philosophy</h2>
             <p className="mt-4 text-muted-foreground">
-              I believe in automation, infrastructure as code, and continuous improvement. My approach combines:
+                I believe in automation, infrastructure as code, and continuous improvement, bringing a full-stack perspective to my work. My approach combines:
             </p>
             <ul className="mt-4 space-y-2 list-disc list-inside text-muted-foreground ml-4">
               <li>Collaborative problem-solving with development and operations teams</li>
               <li>Building scalable and resilient infrastructure solutions</li>
               <li>Implementing robust security practices across the technology stack</li>
+              <li>Crafting efficient and engaging web applications that leverage optimized infrastructure</li>
               <li>Continuous learning and adaptation to emerging technologies</li>
               <li>Knowledge sharing and documentation to empower team members</li>
             </ul>

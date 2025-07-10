@@ -12,7 +12,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">About</h3>
             <p className="text-sm text-muted-foreground">
-              DevOps Engineer specializing in cloud infrastructure, CI/CD pipelines, and automation solutions.
+              DevOps Engineer and Web Developer specializing in delivering scalable, reliable, and secure web applications through expertise in cloud infrastructure, CI/CD pipelines, and automation solutions.
             </p>
             <div className="flex space-x-4">
               <Link

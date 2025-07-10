@@ -45,7 +45,7 @@ export default function ContactPage() {
                   <Mail className="mt-1 h-5 w-5 text-muted-foreground" />
                   <div>
                     <h3 className="font-medium">Email</h3>
-                    <p className="text-muted-foreground">contact@farhanali.dev</p>
+                    <p className="text-muted-foreground">mochamadfarhanali@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
@@ -59,7 +59,7 @@ export default function ContactPage() {
                   <Phone className="mt-1 h-5 w-5 text-muted-foreground" />
                   <div>
                     <h3 className="font-medium">Phone</h3>
-                    <p className="text-muted-foreground">+62 812 3456 7890</p>
+                    <p className="text-muted-foreground">+62 857 7182 6637</p>
                   </div>
                 </div>
               </div>
@@ -68,7 +68,7 @@ export default function ContactPage() {
                 <h3 className="font-medium">Connect on Social Media</h3>
                 <div className="flex space-x-4">
                   <Link
-                    href="https://github.com/farhanali"
+                    href="https://github.com/mchdfrhn"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-foreground transition-colors"
@@ -76,7 +76,7 @@ export default function ContactPage() {
                     GitHub
                   </Link>
                   <Link
-                    href="https://linkedin.com/in/farhanali"
+                    href="https://www.linkedin.com/in/mchdfrhn/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-foreground transition-colors"
